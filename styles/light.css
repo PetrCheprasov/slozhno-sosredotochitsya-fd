@@ -16,6 +16,19 @@
   --deco-color: var(--intense-black);
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+  --title-color: var(--title-pink);
+  --question-color: var(--intense-black);
+  --title-text-color: var(--intense-black);
+  --button-color: var(--intense-black);
+  --border-color-opacity: var(--intense-black);
+  --title-bg-color: var(--basic-pink);
+  --answer-text-color: var(--intense-black);
+  --deco-color: var(--intense-black);}
+}
+
 .theme-light .page {
   background-image: url(../images/cover-image-light.png);
   

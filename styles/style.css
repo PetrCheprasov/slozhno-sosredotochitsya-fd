@@ -276,6 +276,8 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.825;
   color: var(--title-color);
+  margin-left: var(--header-margin-left);
+  text-shadow: 1px 1px 0 var(--shadow-color);
  }
 
  /*СРЕДНИЙ МОНИТОР*/
@@ -309,7 +311,7 @@
   }
 
   .question_why {
-    margin-top: 17px;
+    margin-top: 15px;
   }
 
   .section_what {
@@ -378,6 +380,14 @@
   .street_pic {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
+  }
+
+  .footer {
+    --min-height: 1024px;
+  }
+
+  .footer_title {
+    font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem);
   }
 
  }
@@ -459,4 +469,14 @@
   .section_how {
     gap: 10px;
   }
+
+  .footer {
+    --min-height: 768px;
+    margin-top: 50px;
+  }
+
+  .footer_title {
+    font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem);
+  }
+  
  }
