@@ -14,3 +14,11 @@
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
+
+.theme-light .rec::before {
+  display: none;
+}
+
+.theme-light .rec::after {
+  display: none;
+}
