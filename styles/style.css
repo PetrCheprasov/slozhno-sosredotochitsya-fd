@@ -96,8 +96,8 @@
   height: 25px;
   top: var(--decoration-gap);
   right: var(--decoration-gap);
-  border-top: var(--corner-thickness) solid var(--title-bg-color);
-  border-right: var(--corner-thickness) solid var(--title-bg-color);
+  border-top: var(--corner-thickness) solid var(--deco-color);
+  border-right: var(--corner-thickness) solid var(--deco-color);
 }
 
 .decorated-zone::after {
@@ -163,7 +163,7 @@
   margin-top: 40px;
 }
 
-.section_why: {
+.section_why {
   margin-top: var(--section-child-margin);
 }
 
@@ -306,6 +306,10 @@
     grid-template-areas:
     'question_why answers_why';
     gap: 20px;
+  }
+
+  .question_why {
+    margin-top: 17px;
   }
 
   .section_what {
