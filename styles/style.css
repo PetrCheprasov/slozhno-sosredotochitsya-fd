@@ -388,9 +388,10 @@
 
   .footer_title {
     font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem);
+    margin-top: 55px;
+  }
   }
 
- }
 
  /*БОЛЬШОЙ МОНИТОР*/
 
@@ -477,6 +478,7 @@
 
   .footer_title {
     font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem);
+    margin-top: 55px;
   }
-  
+
  }
