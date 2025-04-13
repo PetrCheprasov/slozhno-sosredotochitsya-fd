@@ -185,6 +185,8 @@
   color: var(--title-text-color);
   background-color: var(--title-bg-color);
   font-size: inherit;
+  display: flex;
+  gap: 10px;
 }
 
 .answer_text {
