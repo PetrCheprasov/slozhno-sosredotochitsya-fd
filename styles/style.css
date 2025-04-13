@@ -189,7 +189,6 @@
 .answer_text {
   color: var(--answer-text-color);
   font-weight: normal;
-  padding-bottom: 10px;
 }
 
 .text_link {
