@@ -10,10 +10,11 @@
   --question-color: var(--intense-black);
   --title-text-color: var(--intense-black);
   --button-color: var(--intense-black);
-  --border-color-opacity: var(--intense-black);
+  --border-color-opacity: var(--dim-black);
   --title-bg-color: var(--basic-pink);
   --answer-text-color: var(--intense-black);
   --deco-color: var(--intense-black);
+  --fon-stile: var(--intense-black);
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,21 +24,26 @@
   --question-color: var(--intense-black);
   --title-text-color: var(--intense-black);
   --button-color: var(--intense-black);
-  --border-color-opacity: var(--intense-black);
+  --border-color-opacity: var(--dim-black);
   --title-bg-color: var(--basic-pink);
   --answer-text-color: var(--intense-black);
+  --fon-stile: var(--intense-black);
   --deco-color: var(--intense-black);}
-}
-
-.theme-light .page {
-  background-image: url(../images/cover-image-light.png);
+  .rec::before {
+    display: none;
+  }
   
+  .rec::after {
+    display: none;
+  }
 }
 
 .theme-light .rec::before {
   display: none;
 }
 
+
 .theme-light .rec::after {
   display: none;
 }
+

@@ -5,6 +5,10 @@
   --title-pink: #FFC2E6;
   --almost-white-bg: #FFF1F7;
   --real-red: #ff0070;
+  --intense-pink: #DB00FF;
+  --lavender: #f1b2ce;
+  --dim-red:rgba(255, 0, 112, 0.4);
+  --dim-black: rgba(50, 49, 45, 0.4);
 
   --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
   --regular-font-size: 18px;
@@ -13,7 +17,6 @@
   --background-image: url(../images/cover-image-dark.png);
   --decoration-gap: clamp(10px , 2.65vw , 20px);
   --button-color: var(--real-red);
-  --border-color-opacity: var(--real-red);
   --title-color: #DB00FF;
   --shadow-color: var(--real-red);
   --header-margin-left: min(10px , 20px - 2.6vw);
@@ -26,5 +29,6 @@
   --rec-color: var(--real-red);
   --rec_x_pos: 30px;
   --deco-color: var(--real-red);
+  --fon-stile: var(--practicaly-black)
 }
 

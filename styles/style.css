@@ -1,8 +1,9 @@
 .page {
   font-family: var(--project-font-family);
   font-size: var(--regular-font-size);
-  background-color: var(--title-text-color);
+  background-color: var(--fon-stile);
   background-image: var(--background-image);
+  background-position: center;
   font-weight: bold;
   line-height: 1.3;
   background-attachment: fixed;
@@ -53,7 +54,6 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--button-color);
-  border: none;
   outline: none;
 }
 
@@ -129,11 +129,13 @@
   color: var(--rec-color);
   margin-top: 10px;
   margin-right: 15px;
+  display: inline-block;
 }
 
 .rec::after {
   content: "";
   position: absolute;
+  top:1px;
   display: none;
   block-size: 9px;
   inline-size: 9px;
@@ -142,6 +144,7 @@
   box-shadow: 0 0 4px 2px var(--title-bg-color);
   margin-left: 42px;
   margin-top: 18px;
+  display: inline-block;
 }
 
 
@@ -175,7 +178,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-top: 20px;
 }
 
 .answer_title {
@@ -187,6 +189,7 @@
 .answer_text {
   color: var(--answer-text-color);
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 .text_link {
