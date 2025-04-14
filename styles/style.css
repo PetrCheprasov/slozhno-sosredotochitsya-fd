@@ -178,7 +178,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .answer_title {
@@ -195,7 +195,6 @@
 .answer_text {
   color: var(--answer-text-color);
   font-weight: normal;
-  margin-bottom: 10px;
 }
 
 .text_link {
