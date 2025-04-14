@@ -172,13 +172,14 @@
   line-height: 1.3;
   width: 100%;
   color: var(--question-color);
+  margin-bottom: 10px;
 }
 
 .answer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .answer_title {
@@ -195,6 +196,7 @@
 .answer_text {
   color: var(--answer-text-color);
   font-weight: normal;
+  margin-bottom: 10px;
 }
 
 .text_link {
