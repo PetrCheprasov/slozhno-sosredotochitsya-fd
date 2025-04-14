@@ -15,7 +15,7 @@
   --regular-line-height: 100%;
   --title-text-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
-  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --decoration-gap: clamp(20px , 2.65vw , 30px);
   --button-color: var(--real-red);
   --title-color: #DB00FF;
   --shadow-color: var(--real-red);
