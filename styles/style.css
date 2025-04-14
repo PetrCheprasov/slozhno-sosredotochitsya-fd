@@ -195,6 +195,7 @@
 .answer_text {
   color: var(--answer-text-color);
   font-weight: normal;
+  margin-bottom: 10px;
 }
 
 .text_link {
