@@ -189,14 +189,12 @@
   gap: 10px;
   font-size: var(--regular-font-size);
   width: 100%;
-  margin-top: 10px;
  
 }
 
 .answer_text {
   color: var(--answer-text-color);
   font-weight: normal;
-  margin-bottom: 10px;
 }
 
 .text_link {
