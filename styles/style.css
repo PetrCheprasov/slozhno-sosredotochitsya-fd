@@ -197,6 +197,10 @@
   font-weight: normal;
 }
 
+.answer_text:not(:last-child) {
+  margin-block-end: 10px;
+}
+
 .text_link {
   text-shadow: 2px 1px 0 var(--title-bg-color);
   text-decoration: none;
